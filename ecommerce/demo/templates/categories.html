@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+{% block content %}
+    categories: 
+    <hr>
+    {% for category in categories %}
+       <a href="{% url 'product-by-category' category=category.slug %}"> {{category.name}}</a>
+    {% endfor %}
+{% endblock %}

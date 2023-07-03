@@ -1,0 +1,14 @@
+[
+  {
+    "model": "inventory.media",
+    "pk": 1,
+    "fields": {
+      "product_inventory": 1,
+      "img_url": "image/shorts.jpg",
+      "alt_text": "A default image",
+      "is_feature": true,
+      "created_at": "2023-06-13T13:17:02.364Z",
+      "updated_at": "2023-06-13T13:17:02.364Z"
+    }
+  }
+]

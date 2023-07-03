@@ -1,0 +1,45 @@
+[
+  {
+      "model": "inventory.producttype",
+      "pk": 1,
+      "fields": {
+          "name": "T-shirt"
+      }
+  },
+  {
+      "model": "inventory.producttype",
+      "pk": 2,
+      "fields": {
+          "name": "Shirt"
+      }
+  },
+  {
+      "model": "inventory.producttype",
+      "pk": 3,
+      "fields": {
+          "name": "Boxer"
+      }
+  },
+  {
+      "model": "inventory.producttype",
+      "pk": 4,
+      "fields": {
+          "name": "Shoes"
+      }
+  },
+  {
+      "model": "inventory.producttype",
+      "pk": 5,
+      "fields": {
+          "name": "Pent"
+      }
+  },
+  {
+      "model": "inventory.producttype",
+      "pk": 6,
+      "fields": {
+          "name": "Jacket"
+      }
+  }
+  ]
+  

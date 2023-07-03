@@ -1,0 +1,93 @@
+[
+    {
+        "model": "inventory.productinventory",
+        "pk": 1,
+        "fields": {
+            "sku": "7894561325",
+            "upc": "789045601230",
+            "product_type": 1,
+            "product": 2,
+            "brand": 1,
+            "is_active": true,
+            "retail_price": "899.00",
+            "store_price": "799.00",
+            "sale_price": "699.00",
+            "weight": 100.0,
+            "created_at": "2023-06-13T06:35:48.173Z",
+            "updated_at": "2023-06-13T06:35:48.173Z"
+        }
+    },
+    {
+        "model": "inventory.productinventory",
+        "pk": 2,
+        "fields": {
+            "sku": "1236987456",
+            "upc": "73546113045",
+            "product_type": 1,
+            "product": 1,
+            "brand": 4,
+            "is_active": true,
+            "retail_price": "999.00",
+            "store_price": "888.00",
+            "sale_price": "777.00",
+            "weight": 100.0,
+            "created_at": "2023-06-19T09:38:32.448Z",
+            "updated_at": "2023-06-19T09:38:32.448Z"
+        }
+    },
+    {
+        "model": "inventory.productinventory",
+        "pk": 3,
+        "fields": {
+            "sku": "7894561329",
+            "upc": "789045601285",
+            "product_type": 4,
+            "product": 3,
+            "brand": 1,
+            "is_active": true,
+            "retail_price": "899.00",
+            "store_price": "599.00",
+            "sale_price": "299.00",
+            "weight": 100.0,
+            "created_at": "2023-06-22T06:07:20.454Z",
+            "updated_at": "2023-06-22T06:07:20.454Z"
+        }
+    },
+    {
+        "model": "inventory.productinventory",
+        "pk": 4,
+        "fields": {
+            "sku": "7894561379",
+            "upc": "789045601298",
+            "product_type": 5,
+            "product": 5,
+            "brand": 4,
+            "is_active": true,
+            "retail_price": "999.00",
+            "store_price": "899.00",
+            "sale_price": "799.00",
+            "weight": 200.0,
+            "created_at": "2023-06-22T06:14:47.526Z",
+            "updated_at": "2023-06-22T06:14:47.526Z"
+        }
+    },
+    {
+        "model": "inventory.productinventory",
+        "pk": 5,
+        "fields": {
+            "sku": "7894561312",
+            "upc": "789045601789",
+            "product_type": 4,
+            "product": 4,
+            "brand": 2,
+            "is_active": true,
+            "retail_price": "999.00",
+            "store_price": "899.00",
+            "sale_price": "799.00",
+            "weight": 300.0,
+            "created_at": "2023-06-22T06:15:28.259Z",
+            "updated_at": "2023-06-22T06:15:28.259Z"
+        }
+    }
+    ]
+    

@@ -1,0 +1,51 @@
+[
+  {
+      "model": "inventory.productattribute",
+      "pk": 1,
+      "fields": {
+          "name": "T-shirt size",
+          "description": "T-shirt size"
+      }
+  },
+  {
+      "model": "inventory.productattribute",
+      "pk": 2,
+      "fields": {
+          "name": "Shirt size",
+          "description": "Shirt size"
+      }
+  },
+  {
+      "model": "inventory.productattribute",
+      "pk": 3,
+      "fields": {
+          "name": "Shoes size",
+          "description": "shoes size"
+      }
+  },
+  {
+      "model": "inventory.productattribute",
+      "pk": 4,
+      "fields": {
+          "name": "Color",
+          "description": "Color"
+      }
+  },
+  {
+      "model": "inventory.productattribute",
+      "pk": 5,
+      "fields": {
+          "name": "Sleeve",
+          "description": "Sleeve"
+      }
+  },
+  {
+      "model": "inventory.productattribute",
+      "pk": 6,
+      "fields": {
+          "name": "Pent size",
+          "description": "Pent size"
+      }
+  }
+  ]
+  

@@ -1,0 +1,73 @@
+[
+  {
+      "model": "inventory.brand",
+      "pk": 1,
+      "fields": {
+          "name": "Puma"
+      }
+  },
+  {
+      "model": "inventory.brand",
+      "pk": 2,
+      "fields": {
+          "name": "Wrong"
+      }
+  },
+  {
+      "model": "inventory.brand",
+      "pk": 3,
+      "fields": {
+          "name": "Adidas"
+      }
+  },
+  {
+      "model": "inventory.brand",
+      "pk": 4,
+      "fields": {
+          "name": "Buffalo"
+      }
+  },
+  {
+      "model": "inventory.brand",
+      "pk": 5,
+      "fields": {
+          "name": "Nike"
+      }
+  },
+  {
+      "model": "inventory.brand",
+      "pk": 6,
+      "fields": {
+          "name": "Gucci"
+      }
+  },
+  {
+      "model": "inventory.brand",
+      "pk": 7,
+      "fields": {
+          "name": "Campus"
+      }
+  },
+  {
+      "model": "inventory.brand",
+      "pk": 8,
+      "fields": {
+          "name": "ZARA"
+      }
+  },
+  {
+      "model": "inventory.brand",
+      "pk": 9,
+      "fields": {
+          "name": "Levi's"
+      }
+  },
+  {
+      "model": "inventory.brand",
+      "pk": 10,
+      "fields": {
+          "name": "Omega"
+      }
+  }
+  ]
+  

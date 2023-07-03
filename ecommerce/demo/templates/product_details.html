@@ -1,0 +1,54 @@
+{% extends 'base.html' %}
+
+{% block content %}
+Product Details
+
+<ul>
+  
+    <li>{{ product_detail.product__name }}</li>
+    <li>{{ product_detail.sku }}</li>
+    <li>{{ product_detail.product_inventory__units }}</li>
+  
+  {% for products in product_attribute_name %}
+    <li>{{ products.product_attribute__name}}</li>
+    {% for product in product_attribute_name_value %} 
+      {% if product.attribute_values__product_attribute__name == products.product_attribute__name %}
+        {% if product.attribute_values__attribute_value in product_detail.field %}
+          <ul>
+            <li>
+              <div id="target-{{product.attribute_values__attribute_value}}" class="fw-bold" data-attribute="{{products.product_attribute__name}}" value="{{product.attribute_values__attribute_value}}" >{{product.attribute_values__attribute_value}}</div>
+            </li>
+          </ul>
+        {% else %}   
+          <ul>
+            <li> 
+              <div id="target-{{product.attribute_values__attribute_value}}" data-attribute="{{products.product_attribute__name}}" value="{{product.attribute_values__attribute_value}}">{{product.attribute_values__attribute_value}}</div>
+            </li>
+          </ul>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+</ul>
+
+<script>
+  var d = {}
+  let textBoxes = document.querySelectorAll('[id^=target]')
+  let e = 0
+  let f = textBoxes.length
+
+  for (let i in textBoxes){
+    if (e < f){
+      if(textBoxes[i].classList.contains("fw-bold")){
+        d[textBoxes[i].getAttribute('data-attribute')] = textBoxes[i].getAttribute('value')
+      }
+    } else {
+        break
+      }
+    e++
+    console.log(d)
+    }
+
+</script>
+
+{% endblock  %}

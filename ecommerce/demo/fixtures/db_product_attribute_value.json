@@ -1,0 +1,123 @@
+[
+  {
+      "model": "inventory.productattributevalue",
+      "pk": 1,
+      "fields": {
+          "product_attribute": 1,
+          "attribute_value": "M"
+      }
+  },
+  {
+      "model": "inventory.productattributevalue",
+      "pk": 2,
+      "fields": {
+          "product_attribute": 1,
+          "attribute_value": "L"
+      }
+  },
+  {
+      "model": "inventory.productattributevalue",
+      "pk": 3,
+      "fields": {
+          "product_attribute": 2,
+          "attribute_value": "M"
+      }
+  },
+  {
+      "model": "inventory.productattributevalue",
+      "pk": 4,
+      "fields": {
+          "product_attribute": 2,
+          "attribute_value": "L"
+      }
+  },
+  {
+      "model": "inventory.productattributevalue",
+      "pk": 5,
+      "fields": {
+          "product_attribute": 3,
+          "attribute_value": "8"
+      }
+  },
+  {
+      "model": "inventory.productattributevalue",
+      "pk": 6,
+      "fields": {
+          "product_attribute": 3,
+          "attribute_value": "9"
+      }
+  },
+  {
+      "model": "inventory.productattributevalue",
+      "pk": 7,
+      "fields": {
+          "product_attribute": 3,
+          "attribute_value": "7"
+      }
+  },
+  {
+      "model": "inventory.productattributevalue",
+      "pk": 8,
+      "fields": {
+          "product_attribute": 4,
+          "attribute_value": "Red"
+      }
+  },
+  {
+      "model": "inventory.productattributevalue",
+      "pk": 9,
+      "fields": {
+          "product_attribute": 4,
+          "attribute_value": "Blue"
+      }
+  },
+  {
+      "model": "inventory.productattributevalue",
+      "pk": 10,
+      "fields": {
+          "product_attribute": 4,
+          "attribute_value": "White"
+      }
+  },
+  {
+      "model": "inventory.productattributevalue",
+      "pk": 11,
+      "fields": {
+          "product_attribute": 5,
+          "attribute_value": "Half"
+      }
+  },
+  {
+      "model": "inventory.productattributevalue",
+      "pk": 12,
+      "fields": {
+          "product_attribute": 5,
+          "attribute_value": "Full"
+      }
+  },
+  {
+      "model": "inventory.productattributevalue",
+      "pk": 13,
+      "fields": {
+          "product_attribute": 5,
+          "attribute_value": "Sleeve less"
+      }
+  },
+  {
+      "model": "inventory.productattributevalue",
+      "pk": 14,
+      "fields": {
+          "product_attribute": 6,
+          "attribute_value": "30"
+      }
+  },
+  {
+      "model": "inventory.productattributevalue",
+      "pk": 15,
+      "fields": {
+          "product_attribute": 6,
+          "attribute_value": "32"
+      }
+  }
+  ]
+  
